@@ -8,8 +8,8 @@ import smtplib
 from email.mime.text import MIMEText
 from random import *
 global token
-token = "skyblqh1ymsoi1ahstf7"
-# 彩云翻译API
+token = "xxxxxxxx" #这是彩云翻译的授权码，自己去彩云小译可免费获得100万字一个月翻译
+# 彩云翻译API（用户也可以换其他API，但是注意主程序里面的translate也要改）
 def tranlate(source, direction):
     url = "http://api.interpreter.caiyunai.com/v1/translator"
 
@@ -52,14 +52,14 @@ try:
 except:
     kw = input("输入关键词（英文）:")
 print(kw)
-flag = input("输入任何字符使用翻译并继续,留空继续但不翻译:")
+flag = input("输入任何字符使用标题翻译并继续,留空则不翻译标题:")
 
-#邮箱部分设置
-receiver = '1173586205@qq.com'
+#邮箱部分设置（这部分设置不会的看readme的教程）
+receiver = 'xxxxxxxx@qq.com'#这是你用来接受邮件的邮箱，按理论啥邮箱都可以
 # 设置邮件接收人，可以是QQ邮箱
-sender = 'wangmengf1999@163.com'
+sender = 'xxxxxxxxxxx@163.com' #填写自己的邮箱，最好是163邮箱
 # 设置发件邮箱，一定要自己注册的邮箱
-pwd = 'LETCNFGBLNXXUKJM'
+pwd = 'XXXXXXXX'#你的163邮箱授权码
 # 设置发件邮箱的授权码密码，根据163邮箱提示，登录第三方邮件客户端需要授权码
 
 
@@ -68,7 +68,7 @@ pwd = 'LETCNFGBLNXXUKJM'
 
 
 
-######################
+######################！！！！以下部分，非必要不要尽量不要修改
 # 主程序部分
 paper_data = pd.DataFrame(columns=['title','authors','doi',"abstract","abstracte"])
 url = 'https://pubmed.ncbi.nlm.nih.gov/'
