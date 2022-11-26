@@ -1,4 +1,4 @@
-# 基于Python的PubMed爬虫文献推荐
+# :bulb:基于Python的PubMed爬虫文献推荐
 
 ## :artificial_satellite: 功能：
 
