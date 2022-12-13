@@ -144,22 +144,6 @@ for num in range(1, page):
 paper_data.to_excel('./RX.xlsx', index=False)
 print("运行结束")
 
-
-# # 邮箱预处理
-# x = randint(0, 9)
-# df1 = pd.read_excel('./RX.xlsx')
-# bt = df1.iloc[x, 0]
-# dio = df1.iloc[x, 2]
-# zy = df1.iloc[x, 3]
-# zye = df1.iloc[x, 4]
-# # 邮箱部分
-# if type(zy) == type(1.0):
-#     zy = "无摘要"
-#     zye = "no abstract"
-# if type(dio) == type(1.0):
-#     dio = "无d0i"
-
-
 def sentemail():
     # 第三方 SMTP 服务
     mail_host = "smtp.qq.com"  # 设置服务器
