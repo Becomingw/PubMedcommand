@@ -54,7 +54,10 @@
 
 5.定期推送指定期刊（自己研究领域的专业期刊）的最新一些文献摘要到邮箱，养成阅读最新行业顶尖文献的好习惯!!!
 
-### :house: [我的博客](bolog.becomingw.cn) 
+### :house: [我的博客](blog.becomingw.cn) 
+
+# 本项目不再更新，定期文献推荐可以使用Pubmed自带的文献推送[Look this tutorial](https://www.xiahepublishing.com/2475-7543/ArticleFullText.aspx?sid=2&id=10.14218%2FMRP.2016.033)
+
 
 
 
